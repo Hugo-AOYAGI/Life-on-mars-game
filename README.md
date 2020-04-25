@@ -2,18 +2,18 @@
 
 Life On Mars
 -------------------
-Ce jeu est un jeu de type runner dans lequel  
-on contrôle un rover en mission sur *Mars*.  
-Le but est d'esquiver des obstacles pour obtenir le meilleur score.  
-Le thème du jeu est inspiré de la fin de mission récente du  
-rover **Oportunity** sur *Mars*.
-## Controles:  
-Saut (par défaut : flèche du haut)  
-Accroupissement (par défaut : flèche du bas)  
-## Modes de Jeu:  
-__Classique__: Course d'obstacle infinie  
-__IA__: Entrainement d'une IA  
-__Versus IA__: Course contre une IA
+This game is a runner where you get to play the **Oportunity** rover as he tries to survive the dangers of *Mars*.
+## Controls:  
+Jump (default: up arrow)  
+Crouch (default : down bas)  
+## Game Modes:
+__Classic__: Infinite obstacle race  
+__AI__: Train an AI (Doesn't work well unfortunatly)
+__Versus AI__: Try to survive longer than one of the AI you previously trained
 
-*Fait par Hugo AOYAGI, Noé d'ABOVILLE, Oscar DEWASMES*  
-__Graphismes intégralement faits par Nicolas Mouttou__
+*Created by Hugo AOYAGI, Noé d'ABOVILLE and Oscar DEWASMES*  
+__Graphics done by Nicolas Mouttou__
+
+# Exemple
+
+[Demo Vid](https://media.giphy.com/media/hruP1G6GfEFDsOIsOn/giphy.gif)
