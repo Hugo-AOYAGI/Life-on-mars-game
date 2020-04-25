@@ -16,4 +16,4 @@ __Graphics done by Nicolas Mouttou__
 
 # Exemple
 
-[Demo Vid](https://media.giphy.com/media/hruP1G6GfEFDsOIsOn/giphy.gif)
+[Demo Vid](https://raw.githubusercontent.com/Hugo-AOYAGI/Life-on-mars-game/master/DemoVideo.gif)
