@@ -158,11 +158,11 @@ class App:
         self.shop.addButton(None, self.resetSkin, (0,0),(165,125))
 
         #Menu goToShop0
-        self.shop0 = Shop(self.images['Shop0'], self.screen, self, 0, 100, self.sounds['Boutton'])
+        self.shop0 = Shop(self.images['Shop0'], self.screen, self, 0, 200, self.sounds['Boutton'])
         #Menu goToShop1
-        self.shop1 = Shop(self.images['Shop1'], self.screen, self, 1, 30000, self.sounds['Boutton'])
+        self.shop1 = Shop(self.images['Shop1'], self.screen, self, 1, 200, self.sounds['Boutton'])
         #Menu goToShop
-        self.shop2 = Shop(self.images['Shop2'], self.screen, self, 2, 30000, self.sounds['Boutton'])
+        self.shop2 = Shop(self.images['Shop2'], self.screen, self, 2, 500, self.sounds['Boutton'])
 
         Menus.current_scene = self.mainMenu
         Menus.current_scene.displayUI()
@@ -179,12 +179,12 @@ class App:
 
     def goToCountDown(self):
         #Affiche le compte ÃƒÆ’Ã‚Â  rebours avant la partie
-        """Menus.current_scene = self.cdMenu
+        Menus.current_scene = self.cdMenu
         for i in range(3,-1,-1):
             Menus.current_scene.image = self.images["cdMenu{}".format(i)]
             Menus.current_scene.displayUI()
             pygame.display.update()
-            self.clock.tick(1)"""
+            self.clock.tick(1)
         self.StartGame()
 
     def goToOptions(self):
